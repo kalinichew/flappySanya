@@ -1,3 +1,4 @@
+    document.addEventListener("DOMContentLoaded",()=>{
     let card = document.getElementById("card");
     let button = document.getElementById("button_start");
 
@@ -86,3 +87,6 @@
     }
     // pipeBottom.onload = draw;
     button.addEventListener("click",draw);
+    
+    });
+    
